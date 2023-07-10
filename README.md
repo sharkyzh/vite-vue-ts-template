@@ -1,2 +1,3 @@
-# vite-vue-ts-template
-vite-vue-ts-template
+# Vue 3 + TypeScript + Vite
+
+Vue 3 + TypeScript + Vite模板，个人使用中
