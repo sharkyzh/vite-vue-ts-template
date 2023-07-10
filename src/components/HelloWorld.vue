@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import store from "@/store";
-import { ref } from "vue";
+import store from '@/store'
+import { ref } from 'vue'
 
-defineProps<{ msg: string }>();
+defineProps<{ msg: string }>()
 
-const count = ref(0);
+const count = ref(0)
 
-const userStore = store().useUserStore;
+const userStore = store().useUserStore
 
 const changeUserName = (name) => {
-  userStore.setInfo({ user_name: name });
-};
+  userStore.setInfo({ user_name: name })
+}
 </script>
 
 <template>

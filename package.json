@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint  ./src --ext .js,.vue --fix",
     "lint:eslint": "eslint src/**/*.{vue,ts,js} --fix",
-    "lint:prettier": "prettier --write **/*.{js,ts,json,css,less,scss,vue,html,md}"
+    "lint:prettier": "prettier --write **/*.{js,ts,json,css,less,scss,vue,html,md}",
+    "format": "prettier --write **/*.{js,ts,json,css,less,scss,vue,html,md}"
   },
   "dependencies": {
     "@vueuse/core": "^10.2.1",

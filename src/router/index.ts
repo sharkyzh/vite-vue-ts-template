@@ -1,40 +1,40 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/login",
-    name: "Login",
+    path: '/login',
+    name: 'Login',
     meta: {
-      title: "登录",
+      title: '登录',
       keepAlive: true,
       requireAuth: false,
     },
-    component: () => import("@/views/login.vue"),
+    component: () => import('@/views/login.vue'),
   },
   {
-    path: "/",
-    name: "Index",
+    path: '/',
+    name: 'Index',
     meta: {
-      title: "首页",
+      title: '首页',
       keepAlive: true,
       requireAuth: true,
     },
-    component: () => import("@/views/index.vue"),
+    component: () => import('@/views/index.vue'),
   },
   {
-    path: "/vueUse",
-    name: "VusUse",
+    path: '/vueUse',
+    name: 'VusUse',
     meta: {
-      title: "vueUse",
+      title: 'vueUse',
       keepAlive: true,
       requireAuth: true,
     },
-    component: () => import("@/views/vueUse.vue"),
+    component: () => import('@/views/vueUse.vue'),
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-});
-export default router;
+})
+export default router

@@ -3,13 +3,13 @@
 </template>
 
 <script setup lang="ts">
-import router from "@/router";
+import router from '@/router'
 
 const goIndex = () => {
   router.push({
-    path: "/",
-  });
-};
+    path: '/',
+  })
+}
 </script>
 
 <style scoped lang="scss"></style>

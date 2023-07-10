@@ -22,9 +22,9 @@ module.exports = {
   // 是否只格式化在文件顶部包含特定注释(@prettier| @format)的文件，默认false
   requirePragma: false,
   // 结尾添加分号
-  semi: true,
+  semi: false,
   // 使用单引号 (true:单引号;false:双引号)
-  singleQuote: false,
+  singleQuote: true,
   // 缩进空格数，默认2个空格
   tabWidth: 2,
   // 元素末尾是否加逗号，默认es5: ES5中的 objects, arrays 等会添加逗号，TypeScript 中的 type 后不加逗号

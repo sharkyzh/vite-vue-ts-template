@@ -4,6 +4,6 @@
 </template>
 
 <script lang="ts" setup>
-import { useMouse } from "@vueuse/core";
-const { x, y } = useMouse();
+import { useMouse } from '@vueuse/core'
+const { x, y } = useMouse()
 </script>
